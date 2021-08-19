@@ -7,6 +7,27 @@
     font-family: Rubik, sans-serif;
 }
 
+.title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.authorisation {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 19px;  
+}
+
 .top-menu {
     margin: 45px auto 0;
     display: flex;
@@ -48,10 +69,6 @@
 
 .top-menu__sign-in {
     margin: 0 30px 0 0;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 19px;
     color: #0B132A;
 }
 
@@ -61,11 +78,12 @@
     width: 150px;
     height: 45px;
     color: #F53855;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 19px;  
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.top-menu__sign-up:hover {
+    color: #FFF;
+    background: #F53838;
 }
