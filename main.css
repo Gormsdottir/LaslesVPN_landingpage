@@ -1,35 +1,4 @@
-@import url(/vendor/normalize.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
-
-@import url(/vendor/normalize.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
-
-@import url(./__logo/top-menu__logo.css);
-
-@import url(./__links/top-menu__links.css);
-
-@import url(./__link/top-menu__link.css);
-
-@import url(./__buttons/top-menu__buttons.css);
-
-@import url(./__sign-in/__sign-in.css);
-
-@import url(./__sign-up/__sign-up.css);
-
-@import url(../blocks/header-info/header-info.css);
-
-@import url(../blocks/header-info/__title/header-info__title.css);
-
-@import url(../blocks/header-info/__span-accent/header-info__span-accent.css);
-
-@import url(../blocks/header-info/__subtitle/header-info__subtitle.css);
-
-@import url(../blocks/header-info/__button/header-info__button.css);
-
-@import url(../blocks/header-info/__img/header-info__pic.css);
-
 
 .root {
     margin: 0 auto;
