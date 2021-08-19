@@ -2,35 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
-@import url(/vendor/normalize.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
-
-@import url(./__logo/top-menu__logo.css);
-
-@import url(./__links/top-menu__links.css);
-
-@import url(./__link/top-menu__link.css);
-
-@import url(./__buttons/top-menu__buttons.css);
-
-@import url(./__sign-in/__sign-in.css);
-
-@import url(./__sign-up/__sign-up.css);
-
-@import url(../blocks/header-info/header-info.css);
-
-@import url(../blocks/header-info/__title/header-info__title.css);
-
-@import url(../blocks/header-info/__span-accent/header-info__span-accent.css);
-
-@import url(../blocks/header-info/__subtitle/header-info__subtitle.css);
-
-@import url(../blocks/header-info/__button/header-info__button.css);
-
-@import url(../blocks/header-info/__img/header-info__pic.css);
-
-
 .root {
     margin: 0 auto;
     padding: 0;
@@ -211,65 +182,4 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-}
-
-.features {
-    margin: 53px 0 0;
-    min-height: 640px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.features__pic {
-    width: 508.12px;
-    height: 414.71px;
-    position: absolute;
-    bottom: 131.19px;
-    left: 184.52px;
-}
-
-.features__title {
-   margin: 0;
-   width: 383.41px;
-   font-weight: 500;
-   font-size: 35px;
-   line-height: 50px;
-   color: #0B132A;
-}
-
-.features__subtitle {
-    margin: 20px 0 20px;
-    width: 427.88px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4F5665;
-}
-
-.features__items {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.features__item {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-    color: #4F5665;
-    display: flex;
-    align-items: center;
-}
-
-.features__icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10.08px;
-}
-
-.features-left-margin {
-    margin-left: 862.12px;
 }
