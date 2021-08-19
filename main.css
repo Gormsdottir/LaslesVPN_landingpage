@@ -7,6 +7,27 @@
     font-family: Rubik, sans-serif;
 }
 
+.title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.authorisation {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 19px;  
+}
+
 .top-menu {
     margin: 45px auto 0;
     display: flex;
@@ -48,10 +69,6 @@
 
 .top-menu__sign-in {
     margin: 0 30px 0 0;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 19px;
     color: #0B132A;
 }
 
@@ -61,13 +78,14 @@
     width: 150px;
     height: 45px;
     color: #F53855;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 19px;  
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.top-menu__sign-up:hover {
+    color: #FFF;
+    background: #F53838;
 }
 
 .header-info {
@@ -83,10 +101,6 @@
 .header-info__title {
     margin: 0 0 0 150px;
     width: 555px;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 70px;
-    color: #0B132A;
 }
 
 .header-info__span-accent {
@@ -96,10 +110,6 @@
 .header-info__subtitle {
     margin: 20px 0 50px 150px;
     width: 555px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4F5665;
 }
 
 .header-info__button {
@@ -107,7 +117,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F53838;
     border: 1px solid #F53838;
     border-radius: 10px;
     width: 250px;
@@ -117,8 +126,8 @@
     line-height: 25px;
     font-style: normal;
     text-decoration: none;
-    color: #FFFFFF;
-    box-shadow: 0px 25.29px 54px -15px #f5383859;
+    color: #FFF;
+    background: #F53838;
 }
 
 .header-info__button:hover {
